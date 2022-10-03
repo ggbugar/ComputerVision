@@ -1,0 +1,10 @@
+steps to configure developing environment
+1.download and install anaconda
+2.download and install pycharm
+3.create a new project named ComputerVision
+4.install pip:
+    python -m pip install --upgrade pip
+5.install numpy,matplotlib,opencv-python:
+    pip install numpy matplotlib opencv-python
+
+
