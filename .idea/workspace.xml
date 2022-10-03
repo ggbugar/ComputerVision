@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="透视变换" />
+    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="透视变换">
+      <change afterPath="$PROJECT_DIR$/code/032-卷积相关概念.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/033-图像卷积.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/034-方盒滤波与均值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/035-高斯滤波.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/036-中值滤波.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/037-双边滤波.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/038-高通滤波.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/039-索贝尔算子Sobel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/040-沙尔算子Scharr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/041-拉普拉斯算子Laplacian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/042-边缘检测Canny.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/043-形态学概述.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/044-图像二值化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/045-自适应阈值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/046-腐蚀.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/047-获取形态学卷积核.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/048-膨胀.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/049-开运算.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/050-闭运算.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/051-形态学梯度.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/052-顶帽运算.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/053-黑帽运算.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/054-图像轮廓.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/055-查找轮廓.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/056-绘制轮廓.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/erode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/math.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/shudu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,19 +65,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/ComputerVision/resources/images&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindow运行.ShowToolbar": "false",
+    "last_opened_file_path": "E:/ComputerVision/code",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ComputerVision\code" />
       <recent name="E:\ComputerVision\resources\images" />
       <recent name="E:\ComputerVision\resources\videos" />
-      <recent name="E:\ComputerVision\code" />
       <recent name="E:\ComputerVision\chapter4" />
       <recent name="E:\ComputerVision\chapter3_ImagesAndVideo" />
     </key>
@@ -148,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664788876982</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="透视变换">
+      <created>1664790808812</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664790808812</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,19 +195,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
