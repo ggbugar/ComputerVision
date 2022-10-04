@@ -1,3 +1,6 @@
+# 逻辑处理
+# 有效车辆识别
+# 使用区域内计数防止车辆数量漏计和重复计数
 import cv2 as cv
 import numpy as np
 
@@ -13,8 +16,8 @@ def center(x, y, w, h):
 
 
 # 设置车辆大小
-min_w = 90
-min_h = 90
+min_w = 80
+min_h = 80
 max_w = 500
 max_h = 500
 
@@ -25,11 +28,14 @@ cars = []
 count = 0
 
 # 画线的高度
-line_height = 360
+line_height = 480
 
 # 线的偏移量,形成偏移带
-offset = 36
+# 范围要不大不小,大了导致重复计数,小了会漏记车辆
+offset = 10
 
+# 创建窗口
+cv.namedWindow('VD')
 # 打开视频或直接录制图像
 cap = cv.VideoCapture('../resources/VD2.mp4')
 # 循环处理视频图像
@@ -58,7 +64,7 @@ while cap.isOpened():
         # 只要外轮廓
         # contours, hierarchy = cv.findContours(closed, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)
         # 边缘检测完后画检测线（区域）
-        cv.line(frame, (0, int(frame.shape[1] * 0.75)), (frame.shape[0], int(frame.shape[1] * 0.75)), (0, 0, 255), 4)
+        cv.line(frame, (0, line_height), (frame.shape[1], line_height), (255, 0, 0), 2)
         # 创建一张空图
         empty = np.zeros(frame.shape, np.uint8)
         # 遍历轮廓
@@ -71,26 +77,32 @@ while cap.isOpened():
             # 以验证该轮廓是否是有效的车辆
             # 有效车辆判断条件:
             isValid = (w >= min_w) and (h >= min_h) and (w <= max_w) and (h <= max_h)
-            # 如果不是有效车辆则查看下一个轮廓
+            # 如果是有效车辆则尝试统计
             if isValid:
+                # 对于有效的车绘制外接矩阵
+                cv.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 2)
+                # 在空图上画外接矩形
+                cv.rectangle(empty, (x, y), (x + w, y + h), (0, 0, 255), 2)
                 # 获取车辆中心点
                 carCenterPoint = center(x, y, w, h)
                 # 将车辆中心点加入数组
                 cars.append(carCenterPoint)
                 for (x, y) in cars:
                     # 对进入区域内的车辆进行计数统计
-                    if (y > line_height - offset) and (y < line_height + offset):
+                    # line_height-offset<y<line_height+offset
+                    if (line_height - offset < y) and (y < line_height + offset):
                         count += 1
                         cars.remove((x, y))
+                        # 打印车辆数量
                         print(count)
-                # 在空图上画外接矩形
-                cv.rectangle(empty, (x, y), (x + w, y + h), (0, 0, 255), 2)
-                # 在原图上画最大外接矩阵
-                cv.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 2)
+            # 如果不是有效车辆则查看下一个轮廓
             else:
                 continue
         # 显示轮廓方框图和画框原图
         cv.imshow('outline', empty)
+        # 重新设置窗口尺寸
+        cv.resizeWindow('VD', 1080, 720)
+        # 显示图像
         cv.imshow('VD', frame)
 
     # 按q退出

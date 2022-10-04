@@ -9,10 +9,11 @@ import numpy as np
 
 # 创建背景
 background = cv.bgsegm.createBackgroundSubtractorMOG()
-
+# 创建窗口
+cv.namedWindow('VD')
 # 打开视频或直接录制图像
 cap = cv.VideoCapture('../resources/VD2.mp4')
-
+# 循环处理视频图像
 while cap.isOpened():
     # 获取一帧
     ret, frame = cap.read()
@@ -26,6 +27,8 @@ while cap.isOpened():
         blur = cv.medianBlur(blur, 7)
         # 去除背景
         anti_background = background.apply(blur)
+        # 重新设置窗口尺寸
+        cv.resizeWindow('VD', 1080, 720)
         # 显示图像
         cv.imshow('VD', anti_background)
     # 按q退出

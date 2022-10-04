@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="轮廓绘制">
-      <change afterPath="$PROJECT_DIR$/code/057-轮廓的面积与周长.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/058-多边形逼近与凸包.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/059-外接矩阵.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/VD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part1-加载视频.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part2-去除背景.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part3-形态学处理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part4-逻辑处理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part5-显示车辆统计信息.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/introduce.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/resources/VD.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/externalM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/VD.mp4" afterDir="false" />
+    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="车辆统计">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/054-图像轮廓.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/054-图像轮廓.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/025-图像基本缩放.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/025-图像基本缩放.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/VD.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/VD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part1-加载视频.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part1-加载视频.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part2-去除背景.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part2-去除背景.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part3-形态学处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part3-形态学处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part4-逻辑处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part4-逻辑处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part5-显示车辆统计信息.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part5-显示车辆统计信息.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664810687338</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="车辆统计">
+      <created>1664880707030</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664880707030</updated>
+    </task>
+    <task id="LOCAL-00016" summary="车辆统计">
+      <created>1664890511658</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664890511658</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +214,8 @@
     <MESSAGE value="图像缩放" />
     <MESSAGE value="透视变换" />
     <MESSAGE value="轮廓绘制" />
-    <option name="LAST_COMMIT_MESSAGE" value="轮廓绘制" />
+    <MESSAGE value="车辆统计" />
+    <option name="LAST_COMMIT_MESSAGE" value="车辆统计" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

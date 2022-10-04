@@ -28,7 +28,7 @@ if cv.waitKey(0) & 0xFF == ord('q'):
     cv.destroyWindow('zoom')
 
 # 放大时使用插值算法
-zoom = cv.resize(img, None, fx=1.5, fy=1.5, interpolation=cv.INTER)
+zoom = cv.resize(img, None, fx=1.5, fy=1.5, interpolation=cv.INTER_AREA)
 cv.imshow('zoom', zoom)
 if cv.waitKey(0) & 0xFF == ord('q'):
     cv.destroyWindow('zoom')

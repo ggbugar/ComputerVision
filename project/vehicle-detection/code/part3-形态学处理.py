@@ -1,11 +1,12 @@
 import cv2 as cv
 import numpy as np
 
-
 # 创建背景
 background = cv.bgsegm.createBackgroundSubtractorMOG(history=500)
 # 设置并获取形态学卷积内核Kernel
 kernel = cv.getStructuringElement(cv.MORPH_RECT, (5, 5))
+# 创建窗口
+cv.namedWindow('VD')
 # 打开视频或直接录制图像
 cap = cv.VideoCapture('../resources/VD2.mp4')
 # 循环处理视频图像
@@ -54,6 +55,9 @@ while cap.isOpened():
         # cv.imshow('opened', opened)
         # cv.imshow('closed', closed)
         cv.imshow('outline', empty)
+        # 重新设置窗口尺寸
+        cv.resizeWindow('VD', 1080, 720)
+        # 显示图像
         cv.imshow('VD', frame)
 
     # 按q退出
