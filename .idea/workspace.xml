@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="透视变换">
-      <change afterPath="$PROJECT_DIR$/code/032-卷积相关概念.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/033-图像卷积.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/034-方盒滤波与均值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/035-高斯滤波.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/036-中值滤波.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/037-双边滤波.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/038-高通滤波.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/039-索贝尔算子Sobel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/040-沙尔算子Scharr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/041-拉普拉斯算子Laplacian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/042-边缘检测Canny.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/043-形态学概述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/044-图像二值化.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/045-自适应阈值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/046-腐蚀.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/047-获取形态学卷积核.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/048-膨胀.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/049-开运算.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/050-闭运算.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/051-形态学梯度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/052-顶帽运算.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/053-黑帽运算.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/054-图像轮廓.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/055-查找轮廓.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/056-绘制轮廓.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/erode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/math.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/outline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/shudu.png" afterDir="false" />
+    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="轮廓绘制">
+      <change afterPath="$PROJECT_DIR$/code/057-轮廓的面积与周长.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/058-多边形逼近与凸包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/059-外接矩阵.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/VD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part1-加载视频.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part2-去除背景.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part3-形态学处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part4-逻辑处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part5-显示车辆统计信息.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/introduce.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/resources/VD.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/externalM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/VD.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/054-图像轮廓.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/054-图像轮廓.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,19 +56,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindow运行.ShowToolbar": "false",
-    "last_opened_file_path": "E:/ComputerVision/code",
+    "last_opened_file_path": "E:/ComputerVision/project/vehicle-detection",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ComputerVision\project\vehicle-detection" />
       <recent name="E:\ComputerVision\code" />
       <recent name="E:\ComputerVision\resources\images" />
       <recent name="E:\ComputerVision\resources\videos" />
       <recent name="E:\ComputerVision\chapter4" />
-      <recent name="E:\ComputerVision\chapter3_ImagesAndVideo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ComputerVision\project\vehicle-detection\code" />
+      <recent name="E:\ComputerVision\project\vehicle-detection\resources" />
       <recent name="E:\ComputerVision\code" />
       <recent name="E:\ComputerVision" />
     </key>
@@ -187,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664790808812</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="轮廓绘制">
+      <created>1664810687338</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664810687338</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +207,8 @@
     <MESSAGE value="图像运算" />
     <MESSAGE value="图像缩放" />
     <MESSAGE value="透视变换" />
-    <option name="LAST_COMMIT_MESSAGE" value="透视变换" />
+    <MESSAGE value="轮廓绘制" />
+    <option name="LAST_COMMIT_MESSAGE" value="轮廓绘制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

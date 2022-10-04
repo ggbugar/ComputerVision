@@ -13,7 +13,7 @@
 findContours(img,mode,approximationMode,...)
 两个返回值 contours hierarchy
 mode:
-    ERETR_EXERNAL=0 表示只坚持外轮廓
+    ERETR_EXERNAL=0 表示只检测外轮廓
     ERETR_LIST=1 表示检测的轮廓不建立等级关系
     ERETR_CCOMP=2 表示每层最多两级
     ERETR_TREE=3 表示按树形存储轮廓
