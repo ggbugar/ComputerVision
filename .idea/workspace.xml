@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="车辆统计">
+    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="vehicle-detection">
+      <change afterPath="$PROJECT_DIR$/code/060-opencv特征.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/061-Harris角点检测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/062-Shi_Tomasi角点检测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/063-SIFT关键点检测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/064-计算SIFT描述子.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/065-SURF特征检测以及计算描述子.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/066-ORB特征点检测以及描述子计算.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/067-暴力特征匹配方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part6-参数优化.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/025-图像基本缩放.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/025-图像基本缩放.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/VD.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/VD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part1-加载视频.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part1-加载视频.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part2-去除背景.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part2-去除背景.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part3-形态学处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part3-形态学处理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part4-逻辑处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part4-逻辑处理.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part5-显示车辆统计信息.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/vehicle-detection/code/part5-显示车辆统计信息.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,17 +51,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindow运行.ShowToolbar": "false",
-    "last_opened_file_path": "E:/ComputerVision/project/vehicle-detection",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "last_opened_file_path": "E:/ComputerVision/project/vehicle-detection/paper",
+    "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ComputerVision\project\vehicle-detection\paper" />
       <recent name="E:\ComputerVision\project\vehicle-detection" />
       <recent name="E:\ComputerVision\code" />
       <recent name="E:\ComputerVision\resources\images" />
       <recent name="E:\ComputerVision\resources\videos" />
-      <recent name="E:\ComputerVision\chapter4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ComputerVision\project\vehicle-detection\code" />
@@ -188,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664890511658</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="vehicle-detection">
+      <created>1664895329842</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664895329842</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +225,8 @@
     <MESSAGE value="透视变换" />
     <MESSAGE value="轮廓绘制" />
     <MESSAGE value="车辆统计" />
-    <option name="LAST_COMMIT_MESSAGE" value="车辆统计" />
+    <MESSAGE value="vehicle-detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="vehicle-detection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
