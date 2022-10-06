@@ -20,7 +20,7 @@ img = cv.imread('../resources/images/shudu.png')
 # 灰度化
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 # 创建ORB对象
-orb = cv.xfeatures2d.SIFT_create()
+orb = cv.ORB_create()
 # 进行检测，kp=surf.detect(img,...)
 kp, des = orb.detectAndCompute(gray, None)
 # for i in des:
@@ -28,7 +28,7 @@ kp, des = orb.detectAndCompute(gray, None)
 # 绘制关键点cv.drawKeypoint(grey,kp,img)
 cv.drawKeypoints(gray, kp, img)
 # 图像显示
-cv.imshow('harris', img)
+cv.imshow('result', img)
 if cv.waitKey(0) & 0xFF == ord('q'):
     cv.destroyAllWindows()
 

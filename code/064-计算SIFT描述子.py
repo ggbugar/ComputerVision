@@ -25,7 +25,7 @@ for i in des:
 # 绘制关键点cv.drawKeypoint(grey,kp,img)
 cv.drawKeypoints(gray, kp, img)
 # 图像显示
-cv.imshow('harris', img)
+cv.imshow('result', img)
 if cv.waitKey(0) & 0xFF == ord('q'):
     cv.destroyAllWindows()
 
