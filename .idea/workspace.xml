@@ -1,12 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="pis">
-      <change afterPath="$PROJECT_DIR$/project/panoramic-image-stitching/resources/map1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/panoramic-image-stitching/resources/map2.png" afterDir="false" />
+    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="image stitch">
+      <change afterPath="$PROJECT_DIR$/code/070-图像分割.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/071-图像分割-分水岭法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/072-图像分割-GrabCut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/073-图像分割-MeanShift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/074-图像分割-背景扣除.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/075-图像修复.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/code/haar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/introduce.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_eye.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalcatface_extended.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_alt2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_fullbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_lefteye_2splits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_licence_plate_rus_16stages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_lowerbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_mcs_mouth.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_mcs_nose.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_profileface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_righteye_2splits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_russian_plate_number.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_smile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_upperbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/flower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/inpaint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/inpaint_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/lena.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/water_coins.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/vtest.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/069-图像查找.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/069-图像查找.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/panoramic-image-stitching/code/PIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/panoramic-image-stitching/code/PIS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/panoramic-image-stitching/code/PIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/panoramic-image-stitching/code/PIS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/panoramic-image-stitching/introduce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/projects/panoramic-image-stitching/introduce.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/panoramic-image-stitching/resources/map1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/panoramic-image-stitching/resources/map1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/panoramic-image-stitching/resources/map2.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/panoramic-image-stitching/resources/map2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/VD.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/VD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part1-加载视频.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part1-加载视频.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part2-去除背景.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part2-去除背景.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part3-形态学处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part3-形态学处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part4-逻辑处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part4-逻辑处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part5-显示车辆统计信息.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part5-显示车辆统计信息.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part6-参数优化.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part6-参数优化.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/introduce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/introduce.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/resources/VD.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/resources/VD.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/resources/VD2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/resources/VD2.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +92,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindow运行.ShowToolbar": "false",
-    "last_opened_file_path": "E:/ComputerVision/project/panoramic-image-stitching/resources",
+    "last_opened_file_path": "E:/ComputerVision/projects/face-recognition/resources/images",
     "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ComputerVision\project\panoramic-image-stitching\resources" />
-      <recent name="E:\ComputerVision\project\panoramic-image-stitching" />
-      <recent name="E:\ComputerVision\project\vehicle-detection\paper" />
-      <recent name="E:\ComputerVision\project\vehicle-detection" />
+      <recent name="E:\ComputerVision\projects\face-recognition\resources\images" />
+      <recent name="E:\ComputerVision\projects\face-recognition\resources" />
+      <recent name="E:\ComputerVision\projects\face-recognition\code" />
+      <recent name="E:\ComputerVision\resources\images" />
       <recent name="E:\ComputerVision\code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ComputerVision\resources\images" />
       <recent name="E:\ComputerVision\project\vehicle-detection\code" />
       <recent name="E:\ComputerVision\project\vehicle-detection\resources" />
       <recent name="E:\ComputerVision\code" />
@@ -206,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665040981355</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="image stitch">
+      <created>1665123715180</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665123715180</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +289,8 @@
     <MESSAGE value="轮廓绘制" />
     <MESSAGE value="车辆统计" />
     <MESSAGE value="vehicle-detection" />
-    <option name="LAST_COMMIT_MESSAGE" value="vehicle-detection" />
+    <MESSAGE value="image stitch" />
+    <option name="LAST_COMMIT_MESSAGE" value="image stitch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

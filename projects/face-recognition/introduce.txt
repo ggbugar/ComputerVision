@@ -1,0 +1,21 @@
+人脸识别
+哈尔级联方法Haar
+    专门为解决人脸识别的方法
+    在深度学习不流行时，Haar就已经商用
+    识别步骤：
+        创建Haar级联器
+        导入图片并灰度化
+        调用detectMultiScale方法进行人脸识别
+        detectMultiScale(
+        img,
+        double scaleFactor = 1.1,
+        int minNeighbors = 3,
+        ...)
+深度学习方法DNN
+
+
+
+
+
+
+
