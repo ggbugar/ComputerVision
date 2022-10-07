@@ -11,8 +11,8 @@ from cv2 import dnn
 import numpy as np
 
 # 读取模型，取得深度神经网络
-config = "../resources/model/bvlc_googlenet.prototxt"
-model = "../resources/model/bvlc_googlenet.caffemodel"
+config = "../../resources/model/bvlc_googlenet.prototxt"
+model = "../../resources/model/bvlc_googlenet.caffemodel"
 net = dnn.readNetFromCaffe(config, model)
 # 读取图片,转成张量
 img = cv.imread('../../resources/images/smallcat.jpeg')
