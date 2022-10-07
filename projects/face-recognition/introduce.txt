@@ -10,8 +10,7 @@
         img,
         double scaleFactor = 1.1,
         int minNeighbors = 3,
-        ...)
-深度学习方法DNN
+        ...)深度学习方法DNN
 
 
 

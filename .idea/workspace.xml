@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="image stitch">
+    <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="face-recognition">
       <change afterPath="$PROJECT_DIR$/code/070-图像分割.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code/071-图像分割-分水岭法.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/code/072-图像分割-GrabCut.py" afterDir="false" />
@@ -261,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665123715180</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="face-recognition">
+      <created>1665136959917</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1665136959917</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +297,8 @@
     <MESSAGE value="车辆统计" />
     <MESSAGE value="vehicle-detection" />
     <MESSAGE value="image stitch" />
-    <option name="LAST_COMMIT_MESSAGE" value="image stitch" />
+    <MESSAGE value="face-recognition" />
+    <option name="LAST_COMMIT_MESSAGE" value="face-recognition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
