@@ -14,7 +14,7 @@ img2 = cv.imread('../resources/images/shudu.png')
 # 灰度化
 gray1 = cv.cvtColor(img1, cv.COLOR_BGR2GRAY)
 gray2 = cv.cvtColor(img2, cv.COLOR_BGR2GRAY)
-# 创建特征检测器
+# # 创建特征转换对象
 sift = cv.xfeatures2d.SIFT_create()
 # surf = cv.xfeatures2d.SURT_create()
 # orb = cv.ORB_create()
@@ -41,9 +41,9 @@ if len(goodMatch) >= 4:
     # 获取图的长宽
     height, width, channel = img1.shape
     # pts 要搜索的图的四个角点
-    pts = np.float32([[0, 0], [0, height-1],[width-1, height-1], [width-1, 0]]).reshape(-1, 1, 2)
+    pts = np.float32([[0, 0], [0, height-1], [width-1, height-1], [width-1, 0]]).reshape(-1, 1, 2)
     # 透视变换
-    dst = cv.perspectiveTransform(pts,H)
+    dst = cv.perspectiveTransform(pts, H)
     # 在大图中框出小图
     result = cv.polylines(img2, [np.int32(dst)], True, (0, 0, 255))
 else:
