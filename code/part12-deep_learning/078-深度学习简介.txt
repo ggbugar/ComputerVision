@@ -1,0 +1,60 @@
+深度学习
+历史
+
+深度学习网络模型
+DNN(deep neural network) 深度神经网络
+RNN(recurrent neural network) 循环神经网络
+    语音识别
+    机器翻译
+    生成图像描述
+CNN(convolutuonal neural network) 卷积神经网络
+    用途：
+        图片分类
+        目标定位检测
+        目标分割
+        人脸检测
+    几种CNN实现：
+        RCNN,Fast RCNN,Faster RCNN
+        SSD(single shot detectors
+        YOLO,YOLOv2,...
+
+深度学习库
+tensorflow,google
+caffe,caffe2,->pyTorch 贾扬清
+MXNet,Apache
+
+训练数据集
+MINST,Fashion-MNIST 手写字母
+VOC，举办挑战赛时的数据集，2012后不在更新
+COCO，用于目标检测的大型数据集
+ImageNet 大而全的数据集
+
+训练模型
+TensorFlow  .pb
+PyTorch .pth
+caffe .caffe
+ONNX .onnx
+
+opencv对DNN的支持
+opencv 3.3将DNN转正
+opencv只能使用DNN，不能训练DNN模型
+
+opencv支持的模型
+TensorFlow
+PyTorch
+caffe
+ONNX
+
+
+
+
+
+
+
+
+
+
+
+
+
+

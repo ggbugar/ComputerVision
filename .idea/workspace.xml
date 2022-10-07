@@ -2,58 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b29c726-2598-4552-b2bc-8e2a580ba009" name="变更" comment="face-recognition">
-      <change afterPath="$PROJECT_DIR$/code/070-图像分割.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/071-图像分割-分水岭法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/072-图像分割-GrabCut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/073-图像分割-MeanShift.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/074-图像分割-背景扣除.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/075-图像修复.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/code/haar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/introduce.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_eye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalcatface_extended.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_alt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_alt2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_fullbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_lefteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_licence_plate_rus_16stages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_lowerbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_mcs_mouth.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_mcs_nose.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_profileface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_righteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_russian_plate_number.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_smile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_upperbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/images/p1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/images/p2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/face-recognition/resources/images/p3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/flower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/inpaint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/inpaint_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/lena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/water_coins.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/vtest.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/part12-deep_learning/076-人脸识别.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/part12-deep_learning/077-车牌识别.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/part12-deep_learning/078-深度学习简介.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/part12-deep_learning/079-DNN实现图像分类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/license-plate-recognition/code/LPC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/license-plate-recognition/introduce.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/license-plate-recognition/resources/haarcascades/haarcascade_russian_plate_number.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/license-plate-recognition/resources/images/chinacar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_eye.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_mcs_mouth.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_mcs_nose.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_russian_plate_number.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/smallcat.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/bvlc_googlenet.caffemodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/bvlc_googlenet.prototxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/opencv_face_detector.caffemodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/opencv_face_detector.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/opencv_face_detector.prototxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/opencv_face_detector_fp16.caffemodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/opencv_face_detector_uint8.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/synset_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/yolov4-tiny.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/yolov4-tiny.cfg.readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/model/yolov4-tiny.weights" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/panoramic-image-stitching/code/PIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/panoramic-image-stitching/code/PIS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/panoramic-image-stitching/introduce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/projects/panoramic-image-stitching/introduce.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/panoramic-image-stitching/resources/map1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/panoramic-image-stitching/resources/map1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/panoramic-image-stitching/resources/map2.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/panoramic-image-stitching/resources/map2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/VD.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/VD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part1-加载视频.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part1-加载视频.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part2-去除背景.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part2-去除背景.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part3-形态学处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part3-形态学处理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part4-逻辑处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part4-逻辑处理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part5-显示车辆统计信息.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part5-显示车辆统计信息.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/code/part6-参数优化.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/code/part6-参数优化.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/introduce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/introduce.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/resources/VD.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/resources/VD.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/vehicle-detection/resources/VD2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vehicle-detection/resources/VD2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/001-环境搭建.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/part1-build_environment/001-环境搭建.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/002-创建窗口.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part2-images_videos_mouse/002-创建窗口.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/003-读取并显示图片.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part2-images_videos_mouse/003-读取并显示图片.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/004-保存图片.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part2-images_videos_mouse/004-保存图片.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/005-通过摄像头采集并显示视频.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part2-images_videos_mouse/005-通过摄像头采集并显示视频.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/006-读取视频文件并显示.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part2-images_videos_mouse/006-读取视频文件并显示.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/007-视频录制并保存.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part2-images_videos_mouse/007-视频录制并保存.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/008-鼠标控制.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part2-images_videos_mouse/008-鼠标控制.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/009-Trackbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part2-images_videos_mouse/009-Trackbar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/010-RGB_BGR_HSV_HSL_YUV.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/part3-color_space-Numpy-Mat/010-RGB_BGR_HSV_HSL_YUV.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/011-色彩空间转换.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part3-color_space-Numpy-Mat/011-色彩空间转换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/012-Numpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part3-color_space-Numpy-Mat/012-Numpy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/013-Mat的深浅拷贝问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part3-color_space-Numpy-Mat/013-Mat的深浅拷贝问题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/014-图像的属性.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part3-color_space-Numpy-Mat/014-图像的属性.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/015-通道的分离与合并.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part3-color_space-Numpy-Mat/015-通道的分离与合并.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/016-图形绘制-直线.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part4-draw_graphics/016-图形绘制-直线.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/017-图形绘制-椭圆.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part4-draw_graphics/017-图形绘制-椭圆.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/018-图形绘制-多边形.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part4-draw_graphics/018-图形绘制-多边形.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/019-图形绘制-文本.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part4-draw_graphics/019-图形绘制-文本.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/020-使用鼠标绘制图形.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part4-draw_graphics/020-使用鼠标绘制图形.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/021-图像的加减乘除.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part5-image_arithmetic-bit_operations/021-图像的加减乘除.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/022-图像的融合.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part5-image_arithmetic-bit_operations/022-图像的融合.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/023-图像位运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part5-image_arithmetic-bit_operations/023-图像位运算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/024-给图片加水印.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part5-image_arithmetic-bit_operations/024-给图片加水印.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/025-图像基本缩放.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part6-image_transform/025-图像基本缩放.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/026-图像翻转.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part6-image_transform/026-图像翻转.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/027-图像旋转.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part6-image_transform/027-图像旋转.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/028-仿射变换-图像平移.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part6-image_transform/028-仿射变换-图像平移.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/029-获取变换矩阵1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part6-image_transform/029-获取变换矩阵1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/030-获取变换矩阵2.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part6-image_transform/030-获取变换矩阵2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/031-透视变换.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part6-image_transform/031-透视变换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/032-卷积相关概念.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/032-卷积相关概念.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/033-图像卷积.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/033-图像卷积.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/034-方盒滤波与均值.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/034-方盒滤波与均值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/035-高斯滤波.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/035-高斯滤波.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/036-中值滤波.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/036-中值滤波.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/037-双边滤波.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/037-双边滤波.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/038-高通滤波.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/038-高通滤波.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/039-索贝尔算子Sobel.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/039-高通滤波-索贝尔算子Sobel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/040-沙尔算子Scharr.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/040-高通滤波-沙尔算子Scharr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/041-拉普拉斯算子Laplacian.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/041-高通滤波-拉普拉斯算子Laplacian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/042-边缘检测Canny.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part7-image_convolution-filter/042-边缘检测Canny.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/043-形态学概述.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/043-形态学概述.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/044-图像二值化.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/044-图像二值化.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/045-自适应阈值.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/045-自适应阈值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/046-腐蚀.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/046-腐蚀.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/047-获取形态学卷积核.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/047-获取形态学卷积核.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/048-膨胀.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/048-膨胀.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/049-开运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/049-开运算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/050-闭运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/050-闭运算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/051-形态学梯度.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/051-形态学梯度.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/052-顶帽运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/052-顶帽运算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/053-黑帽运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part8-morphology/053-黑帽运算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/054-图像轮廓.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/part9-contours/054-图像轮廓.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/055-查找轮廓.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part9-contours/055-查找轮廓.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/056-绘制轮廓.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part9-contours/056-绘制轮廓.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/057-轮廓的面积与周长.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part9-contours/057-轮廓的面积与周长.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/058-多边形逼近与凸包.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part9-contours/058-多边形逼近与凸包.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/059-外接矩阵.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part9-contours/059-外接矩阵.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/060-opencv特征.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/part10-keypoint-descriptor-detect-match/060-opencv特征.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/061-Harris角点检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part10-keypoint-descriptor-detect-match/061-Harris角点检测.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/062-Shi_Tomasi角点检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part10-keypoint-descriptor-detect-match/062-Shi_Tomasi角点检测.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/063-SIFT关键点检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part10-keypoint-descriptor-detect-match/063-SIFT关键点检测.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/064-计算SIFT描述子.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part10-keypoint-descriptor-detect-match/064-计算SIFT描述子.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/065-SURF特征检测以及计算描述子.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part10-keypoint-descriptor-detect-match/065-SURF特征检测以及计算描述子.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/066-ORB特征点检测以及描述子计算.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part10-keypoint-descriptor-detect-match/066-ORB特征点检测以及描述子计算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/067-暴力特征匹配方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part10-keypoint-descriptor-detect-match/067-暴力特征匹配方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/068-FLANN特征匹配方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part10-keypoint-descriptor-detect-match/068-FLANN特征匹配方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/069-图像查找.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part10-keypoint-descriptor-detect-match/069-图像查找.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/070-图像分割.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/part11-image_segmentation-repair/070-图像分割.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/071-图像分割-分水岭法.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part11-image_segmentation-repair/071-图像分割-分水岭法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/072-图像分割-GrabCut.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part11-image_segmentation-repair/072-图像分割-GrabCut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/073-图像分割-MeanShift.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part11-image_segmentation-repair/073-图像分割-MeanShift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/074-图像分割-背景扣除.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part11-image_segmentation-repair/074-图像分割-背景扣除.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/075-图像修复.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/part11-image_segmentation-repair/075-图像修复.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_eye_tree_eyeglasses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalcatface_extended.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_frontalcatface_extended.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_alt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_alt2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_frontalface_alt2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_frontalface_alt_tree.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_fullbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_fullbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_lefteye_2splits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_lefteye_2splits.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_licence_plate_rus_16stages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_licence_plate_rus_16stages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_lowerbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_lowerbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_profileface.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_profileface.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_righteye_2splits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_righteye_2splits.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_smile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_smile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/face-recognition/resources/haarcascades/haarcascade_upperbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/haarcascades/haarcascade_upperbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/videos/flippedCV.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/resources/videos/flippedCV.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,24 +155,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindow运行.ShowToolbar": "false",
-    "last_opened_file_path": "E:/ComputerVision/projects/face-recognition/resources/images",
-    "settings.editor.selected.configurable": "project.scopes"
+    "last_opened_file_path": "E:/ComputerVision/resources/model",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ComputerVision\projects\face-recognition\resources\images" />
-      <recent name="E:\ComputerVision\projects\face-recognition\resources" />
-      <recent name="E:\ComputerVision\projects\face-recognition\code" />
+      <recent name="E:\ComputerVision\resources\model" />
       <recent name="E:\ComputerVision\resources\images" />
-      <recent name="E:\ComputerVision\code" />
+      <recent name="E:\ComputerVision\resources" />
+      <recent name="E:\ComputerVision\projects\license-plate-recognition\resources" />
+      <recent name="E:\ComputerVision\projects\face-recognition\resources\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\ComputerVision\resources\images" />
-      <recent name="E:\ComputerVision\project\vehicle-detection\code" />
-      <recent name="E:\ComputerVision\project\vehicle-detection\resources" />
-      <recent name="E:\ComputerVision\code" />
-      <recent name="E:\ComputerVision" />
+      <recent name="E:\ComputerVision\code\part12-deepLearning" />
+      <recent name="E:\ComputerVision\code\part11-imageSegmentation_Repair" />
+      <recent name="E:\ComputerVision\code\part10-keypoint_descriptor_detect_match" />
+      <recent name="E:\ComputerVision\code\part10-keypoint_descriptor" />
+      <recent name="E:\ComputerVision\code\part9-contours" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -268,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665136959917</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="face-recognition">
+      <created>1665137125931</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665137125931</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
