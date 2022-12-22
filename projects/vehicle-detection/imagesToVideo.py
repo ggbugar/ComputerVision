@@ -55,21 +55,3 @@ while i < max_index:
 
 # 释放VideoWriter
 videoWriter.release()
-
-# 批处理方法
-# 最大图片数
-max_index = 1000
-# 图片路径前缀
-prefix = '../dataSet/images/MVI_11/'
-# 写入文件路径
-videoPath = '../dataSet/videos/MVI_11.mp4'
-# 图片后缀名
-suffix = '.jpg'
-
-
-
-
-
-
-
-
